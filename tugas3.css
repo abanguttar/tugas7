@@ -1,0 +1,125 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+.profile1 {
+  display: flex;
+  width: 100%;
+  height: 310px;
+  background-color: white;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-text {
+  display: inline-block;
+  margin-left: 30px;
+}
+.profile-text h1 {
+  font-size: 30px;
+}
+.profile-text h2 {
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  object-fit: cover;
+}
+.profile-photo img {
+  border-radius: 50%;
+  border-style: groove;
+  border-color: orange;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.profile-text .action .btn1 {
+  border-radius: 10px;
+  background-color: blue;
+  border-color: blue;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+}
+.profile-text .action .btn2 {
+  border-radius: 10px;
+  background-color: white;
+  border-color: green;
+  padding: 5px;
+  color: green;
+  font-size: 20px;
+  padding: 12px;
+}
+
+.detail {
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.detail table {
+  font-size: 22px;
+  width: 500px;
+  height: 300px;
+}
